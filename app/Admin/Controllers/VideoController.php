@@ -86,7 +86,7 @@ class VideoController extends AdminController
             $data=$data->toArray();
             foreach($data as $k=>$v){
                 $path="http://video.myloser.club/".$v['path'];
-                $key = $k;
+                $key = $v['id'];
                 $srcPath = $path;//本地文件绝对路径
                 $result = $cosClient->Upload(
                     $bucket = $bucket,
