@@ -88,9 +88,9 @@ class VideoController extends AdminController
                 $path="http://video.myloser.club/".$v['path'];
                 $key = $k;
                 $srcPath = $path;//本地文件绝对路径
-                unlink(storage_path('app/public').$v);
+                dd(storage_path('app/public').$v['path']);
             }
-            $result = $cosClient->Upload(
+           $result = $cosClient->Upload(
                 $bucket = $bucket,
                 $key = $key,
                 $body = fopen($srcPath, 'rb'));
