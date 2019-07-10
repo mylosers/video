@@ -95,6 +95,7 @@ class VideoController extends AdminController
                 print_r($result);
             }
             foreach($data as $k=>$v){
+                VideoModel::where(['id'=>$k])->delete();
                 unlink(storage_path('app/public/').$v['path']);
             }
         }else{
