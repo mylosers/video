@@ -85,7 +85,7 @@ class VideoController extends AdminController
         if($data){
             $data=$data->toArray();
             foreach($data as $k=>$v){
-                $path=storage_path('app/public/').$v['path'];
+                $path="http://video.myloser.club/".$v['path'];
                 $key = $k;
                 $srcPath = $path;//本地文件绝对路径
                 unlink(storage_path('app/public/').$v['path']);
