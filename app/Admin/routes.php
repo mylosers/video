@@ -11,6 +11,5 @@ Route::group([
 ], function (Router $router) {
 
     $router->get('/', 'HomeController@index')->name('admin.home');
-    $router->get('/timeFile', 'VideoController@timeFile');
     $router->resource('/video/up', VideoController::class);
 });

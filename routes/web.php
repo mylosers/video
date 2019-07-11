@@ -16,3 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('/text', 'Text\TextController@index');
+Route::get('/video/look', 'Text\TextController@look');
+Route::get('/timeFile', 'Text\TextController@timeFile');
