@@ -17,6 +17,7 @@
       <change type="MODIFICATION" beforePath="Z:/app/Model/VideoModel.php" afterPath="Z:/app/Model/VideoModel.php" />
       <change type="MODIFICATION" beforePath="Z:/config/app.php" afterPath="Z:/config/app.php" />
       <change type="MODIFICATION" beforePath="Z:/config/filesystems.php" afterPath="Z:/config/filesystems.php" />
+      <change type="MODIFICATION" beforePath="Z:/resources/views/index/video.blade.php" afterPath="Z:/resources/views/index/video.blade.php" />
       <change type="MODIFICATION" beforePath="Z:/routes/web.php" afterPath="Z:/routes/web.php" />
     </list>
     <ignored path=".iws" />
@@ -49,18 +50,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VideoController.php" pinned="false" current-in-tab="false">
-        <entry file="file://Z:/app/Admin/Controllers/VideoController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.321428">
-              <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
-              <folding>
-                <element signature="e#41#66#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TextController.php" pinned="false" current-in-tab="false">
         <entry file="file://Z:/app/Http/Controllers/Text/TextController.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -73,21 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
-        <entry file="file://Z:/app/Admin/routes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.821428">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="video.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://Z:/resources/views/index/video.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.30922243">
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+              <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -106,11 +85,11 @@
         <option value="Z:/app/Model/VideoModel.php" />
         <option value="Z:/config/filesystems.php" />
         <option value="Z:/.env" />
-        <option value="Z:/resources/views/index/video.blade.php" />
         <option value="Z:/app/Admin/routes.php" />
         <option value="Z:/routes/web.php" />
         <option value="Z:/app/Admin/Controllers/VideoController.php" />
         <option value="Z:/app/Http/Controllers/Text/TextController.php" />
+        <option value="Z:/resources/views/index/video.blade.php" />
       </list>
     </option>
   </component>
@@ -510,21 +489,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://Z:/routes/web.php">
+    <entry file="file://Z:/app/Admin/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.785714">
-          <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+        <state vertical-scroll-proportion="0.44665462">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://Z:/app/Admin/Controllers/VideoController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.321428">
+        <state vertical-scroll-proportion="0.7251356">
           <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
           <folding>
             <element signature="e#41#66#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://Z:/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.785714">
+          <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -538,18 +525,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://Z:/app/Admin/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.821428">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://Z:/resources/views/index/video.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.30922243">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
           <folding />
         </state>
       </provider>

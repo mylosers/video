@@ -7,6 +7,6 @@
 <body>
     <h1>{{$data['name']}}</h1>
     <hr>
-    <video src="/{{$data['path']}}"></video>
+    <video src="/{{$data['path']}}" controls="controls"></video>
 </body>
 </html>
