@@ -86,7 +86,11 @@ class TextController extends Controller
                 print_r($data);echo "<hr>";
                 return view('index.video',['data'=>$data]);
             }else{
-               dd("查无此视频");
+                $data=[
+                    'id'=>$id,
+                    'status'=>1
+                ];
+                return view('index.video',['data'=>$data]);
             }
         }else{
             dd('请输入查询条件');
