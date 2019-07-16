@@ -66,7 +66,7 @@ class TextController extends Controller
                 print_r($result);
             }
             foreach($data as $k=>$v){
-                VideoModel::where(['status'=>2])->update();
+                VideoModel::where(['status'=>1])->update(['status'=>2]);
                 unlink(storage_path('app/public/').$v['path']);
             }
         }else{
