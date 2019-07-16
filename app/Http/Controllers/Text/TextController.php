@@ -52,12 +52,12 @@ class TextController extends Controller
                     'secretKey' => $secretKey)));
 
         $bucket = "video-1258120694"; //存储桶名称 格式：BucketName-APPID
-        $data=VideoModel::all();
+        $data=VideoModel::where(['status'=>1])->get();
         if($data){
             $data=$data->toArray();
             foreach($data as $k=>$v){
                 $path="http://video.myloser.club/".$v['path'];
-                $key = $v['id'];
+                $key = $v['path'];
                 $srcPath = $path;//本地文件绝对路径
                 $result = $cosClient->Upload(
                     $bucket = $bucket,
@@ -95,5 +95,12 @@ class TextController extends Controller
         }else{
             dd('请输入查询条件');
         }
+    }
+
+    /**
+     * 测压
+     */
+    public function ab(){
+        dd($_SERVER['DOCUMENT_ROOT']);
     }
 }
